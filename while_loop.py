@@ -11,3 +11,12 @@ while num > 0:
 # Reverse the list and print
 for d in reversed(digits):
     print(d)
+
+# reverse the number
+a = 5678
+rev = 0
+while a > 0:
+    rev = rev * 10 + a % 10
+    a = a // 10
+
+print(rev)
