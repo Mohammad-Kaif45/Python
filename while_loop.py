@@ -12,11 +12,17 @@ while num > 0:
 for d in reversed(digits):
     print(d)
 
-# reverse the number
-a = 5678
+# reverse the number & check palindrom
+a = 121
 rev = 0
+original = a
 while a > 0:
     rev = rev * 10 + a % 10
     a = a // 10
 
 print(rev)
+
+if rev == original:
+    print("yes")
+else:
+    print("no")
