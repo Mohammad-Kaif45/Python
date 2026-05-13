@@ -100,3 +100,18 @@ class Child(Parent):
 
 c = Child("Kaif",21)
 c.display()
+
+class Demo:
+    def __init__(self):
+        self.name = "Kaif"
+        self._age = 21
+        self.__salary = 50000
+
+    def show(self):
+        print("Inside the class : ")
+        print("Public attribute : ",self.name)
+        print("Protected attribute : ",self._age)
+        print("Private attribute : ",self.__salary)
+
+d = Demo()
+d.show()
