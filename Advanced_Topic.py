@@ -25,7 +25,7 @@ hello("World")
 # *args is used for positional arguments and becomes a tuple.
 # **kwargs is used for keyword arguments and becomes a dictionary.
 
-
+# if you can want
 
 
 
